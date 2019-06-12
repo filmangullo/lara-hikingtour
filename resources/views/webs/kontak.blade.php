@@ -19,7 +19,7 @@
                                 <span class="fa fa-home" aria-hidden="true"></span>
                             </div>
                             <div class="col-md-10 col-sm-10 col-10 contact-text-agileinf0">
-                                <h4>Visit us</h4>
+                                <h4>Alamat</h4>
                                 <p>Parma Via Modena,BO, Italy</p>
                                 <p>Lorem ipsum dolor.</p>
                             </div>
@@ -31,7 +31,7 @@
                                 <span class="fa fa-envelope-o" aria-hidden="true"></span>
                             </div>
                             <div class="col-md-10 col-sm-10 col-10 contact-text-agileinf0">
-                                <h4>Mail us</h4>
+                                <h4>E-Mail</h4>
                                 <p><a href="mailto:info@example.com">info@example.com</a></p>
                             </div>
                         </div>
@@ -42,7 +42,7 @@
                                 <span class="fa fa-phone" aria-hidden="true"></span>
                             </div>
                             <div class="col-md-10 col-sm-10 col-10 contact-text-agileinf0">
-                                <h4>Call us</h4>
+                                <h4>Chat</h4>
                                 <p>+18044261149</p>
                             </div>
                         </div>
@@ -53,16 +53,42 @@
         <div class="row mail-w3l-agile pt-xl-4">
             <div class="col-md-12 agileinfo_mail_grid_right mt-md-0 mt-5">
                 <form action="#" method="post">
-                    <div class="form-group">
-                        <input type="text" name="Name" class="form-control" placeholder="Name" required="">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="nama" class="form-control" placeholder="Nama" required="">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control" placeholder="Email"
+                                        required="">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" name="topik" class="form-control"
+                                        placeholder="Topik yang ingin ditanyakan" required="">
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea name="pesan" placeholder="Pesan......." required=""></textarea>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2 offset-5">
+                                    <div class="form-group">
+                                            <button type="submit" class="btn">Kirim</button>
+                                    </div>
+                                </div>
+                            
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <input type="email" name="Email" class="form-control" placeholder="Email" required="">
-                    </div>
-                    <div class="form-group">
-                        <textarea name="Message" placeholder="Message......." required=""></textarea>
-                    </div>
-                    <button type="submit" class="btn">Kirim</button>
+                    
                 </form>
             </div>
         </div>
